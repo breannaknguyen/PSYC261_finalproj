@@ -1,7 +1,7 @@
 # What Comes Next?: Using Bayesian Inference to Model Human Musical Expectation
-## Breanna K. Nguyen
+### Breanna K. Nguyen
 
 This is my repository for the PSYC 261: Algorithms of the Mind final project. All materials needed to run `musical_expectation.ipynb` are in `finalproj`, however it *must* be run in the course's container, found [here](https://github.com/CNCLgithub/Algorithms-of-the-Mind/). A knitted HTML version and PDF version of the notebook and can be found in `writing_materials`.
 
-### Abstract
+## Abstract
 Humans seem to have an intuitive understanding of music. Musicians and non-musicians alike can often predict the ensuing notes of a melody given the first few notes, but what exactly drives this intuition? Previous research on musical cognition proposes a probabilistic model of melody perception where a melody’s structure, the key, can be inferred given its surface, the pattern of notes. Additional research on melodic expectation theorizes about “musical forces”, forces that metaphorically represent our perception of the physical world and inform the way we think about music. These forces are gravity, magnetism, and inertia, and they influence the transitions from one note to the next in a melodic sequence. We propose a single model that combines both ideas, probabilistic melody perception and musical forces, using Bayesian inference and sequential Monte Carlo methods. Using Julia and Gen.jl, we created a generative melody function and used this function in a particle filter that is constrained by observed data to infer the last note of a melody given the first 6-9 notes. The model produced outputs that moderately positively correlated with human performance. We also discuss the specificities of the model’s performance, its limitations, and future directions.
