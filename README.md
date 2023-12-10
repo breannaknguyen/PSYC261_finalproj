@@ -1,5 +1,5 @@
 # What Comes Next?: Using Bayesian Inference to Model Human Musical Expectation
-### Breanna K. Nguyen
+### Breanna K. Nguyễn
 
 This is my repository for the PSYC 261: Algorithms of the Mind final project. All materials needed to run `musical_expectation.ipynb` are in `finalproj`, however it *must* be run in the course's container, found [here](https://github.com/CNCLgithub/Algorithms-of-the-Mind/). A knitted HTML version and PDF version of the notebook and can be found in `writing_materials`.
 
